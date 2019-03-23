@@ -245,7 +245,7 @@ ORDER BY payment.amount DESC
 LIMIT 5;
   
 #8b. How would you display the view that you created in 8a?  
-SHOW CREATE VIEW `gross_revenue`
+SELECT * FROM gross_revenue;
 
 #8c You find that you no longer need the view top_five_genres. Write a query to delete it.
 DROP VIEW gross_revenue;
